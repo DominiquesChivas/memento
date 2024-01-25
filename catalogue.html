@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link href='https://css.gg/shopping-bag.css' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<title>Memento</title>
+</head>
+<?php
+require_once 'function.php';
+
+?>
+<body>
+	<header> <!--ini adalah header-->
+		<div class="header"> 
+			<ul class="ff">
+				<li><a href="catalogue.html">Catalogue</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+			<h1><a href="memento.html">MEMENTO</a></h1>
+			<a href="cart.php" class="icon-container">
+				<i class="gg-shopping-bag"></i>
+			</a>
+		</div>
+	</header>
+	<content>
+		<div class="shopbox"> <!--container untuk gambar pertama-->
+			<img class="gg" src="grunge1.jpg">
+			<div class="shopboxes"> <!--container untuk nama barang-->
+				<h2 class="tt">"Lightning"</h2>
+				<div class="pricetag"> <!--container untuk harga-->
+					<h4>$ 699</h4>
+				</div>
+				<button onclick="window.location.href='cart.php';" class="button-54" role="button" name ="buy" style="margin-top: 15px;">Buy</button>
+			</div>
+		</div>
+		<div class="shopbox"> <!--container untuk gambar kedua-->
+			<img class="gg2" src="grunge4.jpg">
+			<div class="shopboxes2"> <!--container untuk nama barang-->
+				<h2 class="tt">"Long"</h2>
+				<div class="pricetag"> <!--container untuk harga-->
+					<h4>$ 499</h4>
+				</div>
+				<button onclick="window.location.href='cart.php';" class="button-54" role="button" name ="buy" style="margin-top: 15px;">Buy</button>
+			</div>
+		</div>
+		<div class="shopbox"> <!--container untuk gambar ketiga-->
+			<img class="gg" src="grunge3.jpg">
+			<div class="shopboxes"> <!--container untuk nama barang-->
+				<h2 class="tt">"Flame"</h2>
+				<div class="pricetag"> <!--container untuk harga-->
+					<h4>$ 699</h4>
+				</div>
+				<button onclick="window.location.href='cart.php'" class="button-54" role="button" name ="buy" style="margin-top: 15px;">Buy</button>
+			</div>
+		</div>
+		<div class="shopbox"> <!--container untuk gambar keempat-->
+			<img class="gg2" src="grunge5.jpg">
+			<div class="shopboxes2"> <!--container untuk nama barang-->
+				<h2 class="tt">"Ashes"</h2>
+				<div class="pricetag"> <!--container untuk harga-->
+					<h4>$ 299</h4>
+				</div>
+				<button onclick="window.location.href='cart.php'" class="button-54" role="button" name ="buy" style="margin-top: 15px;">Buy</button>
+			</div>
+		</div>
+	</content>
+</body>
+<footer>
+	<div class="footer"> <!--container untuk footer-->
+		<p class="t6 ff">Copyright © 2021 Memento</p>
+	</div>
+</footer>
+</html>
